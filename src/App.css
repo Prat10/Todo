@@ -1,38 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
 .App {
+  background-color: #000000;
+  height: 30vh;
+  justify-content: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.main {
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  background-color: #000000;
+  height: 98.7vh;
 }
 
-.App-link {
-  color: #61dafb;
+.main input {
+  width: 20rem;
+  height: 3rem;
+  border: none;
+  color: #fff;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.main ul {
+  color: #fff;
+}
+
+.main li {
+  margin-top: 3rem;
+  list-style: none;
+  border: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main button {
+  height: 3.3rem;
+  margin-left: 1rem;
+  width: 6rem;
+  background-color: #db134f;
+}
+
+.main .delete {
+  height: 2rem;
+  width: 2rem;
+  background-color: rgb(133, 8, 8);
+}
+
+.App h1 {
+  color: #fff;
+  font-size: 6em;
+  position: absolute;
+  transform: translate(98%, 30%);
+}
+
+.App h1:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #db134f;
+}
+
+.App h1:nth-child(2) {
+  color: #db134f;
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+
+  0%,
+  100% {
+    clip-path: polygon(0% 45%,
+        16% 44%,
+        33% 50%,
+        54% 60%,
+        70% 61%,
+        84% 59%,
+        100% 52%,
+        100% 100%,
+        0% 100%);
   }
-  to {
-    transform: rotate(360deg);
+
+  50% {
+    clip-path: polygon(0% 60%,
+        15% 65%,
+        34% 66%,
+        51% 62%,
+        67% 50%,
+        84% 45%,
+        100% 46%,
+        100% 100%,
+        0% 100%);
+  }
+}
+
+@media screen and (max-width:769px) {
+  .App {
+    background-color: #000000;
+    height: 20vh;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .main {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #000;
+    height: 96.7vh;
+  }
+
+  .main input {
+    width: 15rem;
+    height: 3.2rem;
+    font-family: Poppins;
+  }
+
+  .main ul {
+    color: #fff;
+  }
+
+  .main li {
+    margin-top: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .main button {
+    height: 3.2rem;
+    border: none;
+    width: 4rem;
+    background-color: #db134f;
+  }
+
+  .main .delete {
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(7, 104, 104);
+  }
+
+  .App h1 {
+    color: #fff;
+    width: auto;
+    font-size: 3em;
+    transform: translate(25%, 100%);
+  }
+
+  .App h1:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 2px #db134f;
+  }
+
+  .App h1:nth-child(2) {
+    color: #db134f;
+    animation: animate 4s ease-in-out infinite;
+  }
+
+  @keyframes animate {
+
+    0%,
+    100% {
+      clip-path: polygon(0% 45%,
+          16% 44%,
+          33% 50%,
+          54% 60%,
+          70% 61%,
+          84% 59%,
+          100% 52%,
+          100% 100%,
+          0% 100%);
+    }
+
+    50% {
+      clip-path: polygon(0% 60%,
+          15% 65%,
+          34% 66%,
+          51% 62%,
+          67% 50%,
+          84% 45%,
+          100% 46%,
+          100% 100%,
+          0% 100%);
+    }
   }
 }
