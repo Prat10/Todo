@@ -24,7 +24,7 @@
   width: 20rem;
   height: 3rem;
   border: none;
-  color: #fff;
+  color: black;
   text-align: center;
 }
 
@@ -57,7 +57,8 @@
   color: #fff;
   font-size: 6em;
   position: absolute;
-  transform: translate(98%, 30%);
+  /* transform: translate(98%, 30%); */
+  -webkit-transform: translate(98%, 30%);
 }
 
 .App h1:nth-child(1) {

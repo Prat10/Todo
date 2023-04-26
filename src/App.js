@@ -31,7 +31,7 @@ export default function App() {
           placeholder='Add the Tasks'
           required
         />
-        <button>Add</button>
+        <button>Add.</button>
       </form>
       <ul>
         {tasks.map((task, index) => (
