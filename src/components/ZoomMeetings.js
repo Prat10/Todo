@@ -11,8 +11,8 @@ ZoomMtg.i18n.reload('en-US');
 const ZoomNew=()=>{
   var authEndpoint = ''
   var sdkKey = 'gkfoc90VQfCCdkoZUqCDLg' // is 
-  var meetingNumber ='72868013325'
-  var passWord = 'mr1ws4'
+  var meetingNumber ='79252584862'
+  var passWord = '9c2zrR'
   var role = 0 
   var userName = 'hhh'
   var userEmail = ''
