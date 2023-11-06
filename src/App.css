@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -58,7 +58,7 @@
   font-size: 4em;
   position: absolute;
   /* transform: translate(98%, 30%); */
-  -webkit-transform: translate(98%, 30%);
+  /* -webkit-transform: translate(98%, 30%);
 }
 
 .App h1:nth-child(1) {
@@ -150,9 +150,9 @@
     width: auto;
     font-size: 3em;
     -webkit-transform: translate(25%, 100%);
-  }
+  } */
 
-  .App h1:nth-child(1) {
+  /* .App h1:nth-child(1) {
     color: transparent;
     -webkit-text-stroke: 2px #db134f;
   }
@@ -189,4 +189,4 @@
           0% 100%);
     }
   }
-}
+} */ 

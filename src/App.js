@@ -4,7 +4,7 @@ import ZoomNew from './components/ZoomMeetings';
 export default function App() {
   return (
     <div>
-      <ZoomNew />
+     <ZoomNew />
     </div>
   )
 }
